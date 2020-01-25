@@ -154,7 +154,7 @@ def display_text(text,font,size,color,x,y):
 class Picture(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.image=pygame.image.load('D:\\Satan\\Text\\Programs\\Python\\Games\\Snake game\\Lost page.png').convert()
+        self.image=pygame.image.load('Lost page.png').convert()
         self.rect=self.image.get_rect()
         self.rect.x,self.rect.y=(0,0)
 #Game Loop
